@@ -1,0 +1,10 @@
+== Setup
+
+1. After cloning the repository run a bundle install to get the required gems:
+       bundle install
+
+2. Now run the following rake tasks on your command line to create the and migrate the database:
+       rake db:create; rake db:migrate
+
+3. To run the specs simply run:
+       rake spec
